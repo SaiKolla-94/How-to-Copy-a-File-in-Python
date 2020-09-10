@@ -1,0 +1,11 @@
+import shutil
+
+src = "C:/Users/cbsl/Pictures/Copy a file with Python"
+dst = "C:/Users/cbsl/Pictures/Copy a file with Python/Des Folder/all"
+#copy of all files and folders
+
+shutil.copytree(src=src, dst=dst)
+
+
+
+
